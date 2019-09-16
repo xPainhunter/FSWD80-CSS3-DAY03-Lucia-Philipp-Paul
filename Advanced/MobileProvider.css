@@ -1,0 +1,177 @@
+body {
+	background: rgb(151,199,248);
+	margin: 0px 20px;
+}
+
+.navBar {
+	background: rgb(250,223,17);
+	
+}
+
+.navBar a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-transform: capitalize;
+
+
+}
+
+.navBar ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+li {
+	padding: 5px;
+	letter-spacing: 3px;
+}
+
+.main-content {
+	display: flex;
+	justify-content: center;
+}
+.main-content-container {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.main-content-header img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+/* vertical content style*/
+
+.vertContContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.vertContList li {
+	list-style-type: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.vCP {
+	display: flex;
+	flex-direction: column;
+	justify-content: align-self: right;	
+	margin-left: auto;
+}
+
+.vertContp1 {
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.vertContp2 {
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.vC1 {
+	width: 250px;
+	background: rgb(245,79,64);
+	border-radius: 5px;
+	padding: 10px;
+	border: 5px dotted white;
+
+}
+
+.vC2 {
+	width: 250px;
+	background: rgb(154, 158, 36);
+	border-radius: 5px;
+	padding: 10px;
+	border: 5px dotted white;
+}
+
+.vC3 {
+	width: 250px;
+	background: rgb(12,73,173);
+	border-radius: 5px;
+	padding: 10px;
+	border: 5px dotted white;
+}
+
+/* horizontal content style*/
+
+
+.horContContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.horCont {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.horContLeft {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+.midLine {
+	display: flex;
+	flex-direction: row;
+}
+
+.horContRight {
+	display: flex;
+	justify-content: center;
+	width: 30%;
+
+}
+
+.midLine p {
+	font-weight: bold;
+	font-size: 25px;
+	width: 30%;
+	letter-spacing: 2px;
+}
+
+.hC1 {
+	background: rgb(245,79,64);
+}
+
+.hC2 {
+	background: rgb(12,73,173);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
